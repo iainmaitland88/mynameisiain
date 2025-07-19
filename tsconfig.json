@@ -13,14 +13,9 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "outDir": "./dist",
-    "rootDir": "./packages",
     "composite": true,
     "incremental": true
   },
   "include": [],
-  "references": [
-    { "path": "./packages/animals" },
-    { "path": "./packages/zoo" }
-  ]
+  "references": [{ "path": "./packages/animals" }, { "path": "./packages/zoo" }]
 }

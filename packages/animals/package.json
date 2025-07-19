@@ -1,6 +1,6 @@
 {
   "name": "@mynameisiain/animals",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Animal definitions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc -b",
     "dev": "tsc -b --watch",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
     "test": "echo \"No tests yet\"",
     "lint": "echo \"No linter configured yet\"",
     "release": "pnpm clean && pnpm build && pnpm publish --access public --no-git-checks"
