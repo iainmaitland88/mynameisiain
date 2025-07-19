@@ -12,7 +12,8 @@
     "dev": "tsc -b --watch",
     "clean": "rm -rf dist",
     "test": "echo \"No tests yet\"",
-    "lint": "echo \"No linter configured yet\""
+    "lint": "echo \"No linter configured yet\"",
+    "release": "pnpm clean && pnpm build && pnpm publish --access public --no-git-checks"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
