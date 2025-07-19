@@ -1,0 +1,23 @@
+{
+  "name": "@mynameisiain/zoo",
+  "version": "0.0.1",
+  "description": "Zoo management system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b --watch",
+    "clean": "rm -rf dist",
+    "test": "echo \"No tests yet\"",
+    "lint": "echo \"No linter configured yet\""
+  },
+  "dependencies": {
+    "@mynameisiain/animals": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
