@@ -1,5 +1,13 @@
 # @mynameisiain/zoo
 
+## 0.0.3
+
+### Patch Changes
+
+- idfk
+- Updated dependencies
+  - @mynameisiain/animals@0.1.1
+
 ## 0.0.2
 
 ### Patch Changes
