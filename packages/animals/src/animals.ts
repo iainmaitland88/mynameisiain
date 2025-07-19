@@ -4,18 +4,23 @@ export interface Animal {
 }
 
 export const Lion: Animal = {
-  name: 'Lion',
-  sound: 'roar',
+  name: "Lion",
+  sound: "roar",
 };
 
 export const Eagle: Animal = {
-  name: 'Eagle',
-  sound: 'screech',
+  name: "Eagle",
+  sound: "screech",
 };
 
 export const Goldfish: Animal = {
-  name: 'Goldfish',
-  sound: 'bubble',
+  name: "Goldfish",
+  sound: "bubble",
+};
+
+export const Dog: Animal = {
+  name: "Dog",
+  sound: "woof",
 };
 
 export function createAnimalSound(animal: Animal): string {
