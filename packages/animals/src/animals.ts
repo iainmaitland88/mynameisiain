@@ -23,6 +23,11 @@ export const Dog: Animal = {
   sound: "woof",
 };
 
+export const Snake: Animal = {
+  name: "Snake",
+  sound: "hiss",
+};
+
 export function createAnimalSound(animal: Animal): string {
   return `The ${animal.name} says ${animal.sound}`;
 }
